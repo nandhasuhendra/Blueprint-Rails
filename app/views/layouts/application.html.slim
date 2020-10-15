@@ -1,0 +1,14 @@
+-# frozen_string_literal: true
+doctype html
+html
+  head
+    = render 'shared/head'
+
+  body
+    = render 'shared/navbar'
+
+    div class="container"
+      = yield
+
+    = render 'shared/footer'
+
