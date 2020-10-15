@@ -59,7 +59,6 @@ def add_gems
   gem 'mini_magick', '~> 4.10', '>= 4.10.1'
   gem 'name_of_person', '~> 1.1'
   gem 'paper_trail', '~> 10.3', '>= 10.3.1'
-  gem 'redis', '~> 4.2', '>= 4.2.2'
   gem 'sidekiq', '~> 6.0', '>= 6.0.3'
   gem 'sidekiq-cron', '~> 1.2'
   gem 'slim-rails', '~> 3.2'
@@ -79,7 +78,6 @@ def add_gems
   end
 
   gem_group :test do
-    gem 'capybara', '~> 3.33'
     gem 'database_cleaner', '~> 1.8', '-> 1.8.5'
   end
 

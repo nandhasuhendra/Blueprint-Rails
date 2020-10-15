@@ -12,14 +12,12 @@ Inspired heavily by [Jumpstart](https://github.com/excid3/jumpstart) from [Chris
   - [jsonb_accessor](https://github.com/madeintandem/jsonb_accessor)
   - [kaminari](https://github.com/kaminari/kaminari)
   - [name_of_person](https://github.com/basecamp/name_of_person)
-  - [redis](https://github.com/redis/redis-rb)
   - [sidekiq](https://github.com/mperham/sidekiq)
   - [sidekiq-cron](https://github.com/ondrejbartas/sidekiq-cron)
   - [paper_trail](https://github.com/paper-trail-gem/paper_trail)
   - [slim-rails](https://github.com/slim-template/slim-rails)
   - [annotate](https://github.com/ctran/annotate_models)
   - [brakeman](https://github.com/presidentbeef/brakeman)
-  - [capybara](https://github.com/teamcapybara/capybara)
   - [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner)
   - [dotenv-rails](https://github.com/bkeepers/dotenv/)
   - [factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
@@ -30,7 +28,7 @@ Inspired heavily by [Jumpstart](https://github.com/excid3/jumpstart) from [Chris
   - [rubocop](https://github.com/rubocop-hq/rubocop)
   - [rubocop-performance](https://github.com/rubocop-hq/rubocop-performance)
   - [rubocop-rails](https://github.com/rubocop-hq/rubocop-rails)
-  
+
 ### Bulma CSS by default
 With Rails 6 we have webpacker by default now. Bulma installed using yarn package.
 
