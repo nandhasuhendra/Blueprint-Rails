@@ -16,7 +16,7 @@ def source_path
   if __FILE__.match?(%r{\Ahttps?://})
     require 'tmpdir'
 
-    source_paths.unshift(tempdir = Dir.mktmpdir('blueprint-rails-'))
+    source_paths.unshift(tempdir = Dir.mktmpdir('Blueprint-Rails-'))
 
     at_exit { FileUtils.remove_entry(tempdir) }
 
