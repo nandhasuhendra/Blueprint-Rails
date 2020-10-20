@@ -69,7 +69,7 @@ def set_localtime
             'config.active_record.default_timezone = :local'
 
   insert_into_file 'config/application.rb', before: /^  end/ do
-    <<-'RUBY'
+    <<~'RUBY'
       # Use sidekiq to process Active Jobs (e.g. ActionMailer's deliver_later)
       config.active_job.queue_adapter = :sidekiq
     RUBY
@@ -130,7 +130,7 @@ def add_javascript
   end
 
   # Configure webpacker
-  content = <<-JS
+  content = <<~JS
     const webpack = require('webpack')
     const alias = require("./alias")
 
@@ -155,7 +155,7 @@ def add_sidekiq
                    "require 'sidekiq/web'\n\n",
                    before: 'Rails.application.routes.draw do'
 
-  content = <<-RUBY
+  content = <<~RUBY
     authenticate :user, lambda { |u| u.strict?  } do
       mount Sidekiq::Web => '/sidekiq'
     end
@@ -230,6 +230,7 @@ def add_rspec
 end
 
 def copy_templates
+  remove_file 'app/views/layouts/application.html.erb'
   remove_file 'app/assets/stylesheets/application.css'
 
   copy_file '.foreman'

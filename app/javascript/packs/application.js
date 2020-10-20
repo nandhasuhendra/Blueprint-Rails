@@ -10,3 +10,5 @@ require("channels")
 require("local-time").start()
 
 window.Rails = Rails
+
+require.context('../images', true)
