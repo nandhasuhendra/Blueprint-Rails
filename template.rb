@@ -5,6 +5,7 @@
 # Instructions: $ rails new myapp -d <sqlite3, postgresql, mysql> -m <template.rb, https://github.com/nandhasuhendra/Blueprint-Rails/template.rb>
 
 require 'fileutils'
+require 'shellwords'
 
 # Copied from: https://github.com/mattbrictson/rails-template
 # Add this template directory to source_paths so that Thor actions like
