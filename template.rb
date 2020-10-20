@@ -21,7 +21,7 @@ def source_path
 
     git clone: [
       '--quiet',
-      'https://github.com/nandhasuhendra/Blueprint_Rails.git',
+      'https://github.com/nandhasuhendra/Blueprint-Rails.git',
       tempdir
     ].map(&:shellescape).join(' ')
 
