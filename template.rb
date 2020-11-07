@@ -85,13 +85,11 @@ def add_gems
   gem 'devise', '~> 4.7', '>= 4.7.1'
   gem 'draper', '~> 4.0', '>= 4.0.1'
   gem 'friendly_id', '~> 5.3'
-  gem 'jsonb_accessor', '~> 1.1'
   gem 'kaminari', '~> 1.2', '>= 1.2.1'
   gem 'name_of_person', '~> 1.1'
   gem 'paper_trail', '~> 10.3', '>= 10.3.1'
   gem 'sidekiq', '~> 6.0', '>= 6.0.3'
   gem 'slim-rails', '~> 3.2'
-  gem 'view_component', '~> 2.18'
 
   gem_group :development, :test do
     gem 'annotate', '>= 3.1.1'
