@@ -9,11 +9,9 @@ Inspired heavily by [Jumpstart](https://github.com/excid3/jumpstart) from [Chris
   - [devise](https://github.com/heartcombo/devise)
   - [draper](https://github.com/drapergem/draper)
   - [friendly_id](https://github.com/norman/friendly_id)
-  - [jsonb_accessor](https://github.com/madeintandem/jsonb_accessor)
   - [kaminari](https://github.com/kaminari/kaminari)
   - [name_of_person](https://github.com/basecamp/name_of_person)
   - [sidekiq](https://github.com/mperham/sidekiq)
-  - [sidekiq-cron](https://github.com/ondrejbartas/sidekiq-cron)
   - [paper_trail](https://github.com/paper-trail-gem/paper_trail)
   - [slim-rails](https://github.com/slim-template/slim-rails)
   - [annotate](https://github.com/ctran/annotate_models)
@@ -37,7 +35,7 @@ With Rails 6 we have webpacker by default now. Bulma installed using yarn packag
 ```bash
 $ rails new sample_app -d postgresql -m template.rb
 or
-$ rails new sample_app -d postgresql -m https://github.com/nandhasuhendra/Blueprint-Rails/template.rb
+$ rails new sample_app -d postgresql -m https://github.com/nandhasuhendra/Blueprint-Rails/template.rb (On progress)
 ```
 
 ##### Boot it up
