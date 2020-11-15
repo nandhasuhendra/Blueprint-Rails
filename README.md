@@ -12,7 +12,6 @@ Inspired heavily by [Jumpstart](https://github.com/excid3/jumpstart) from [Chris
   - [kaminari](https://github.com/kaminari/kaminari)
   - [name_of_person](https://github.com/basecamp/name_of_person)
   - [sidekiq](https://github.com/mperham/sidekiq)
-  - [paper_trail](https://github.com/paper-trail-gem/paper_trail)
   - [slim-rails](https://github.com/slim-template/slim-rails)
   - [annotate](https://github.com/ctran/annotate_models)
   - [brakeman](https://github.com/presidentbeef/brakeman)
