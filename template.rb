@@ -87,7 +87,6 @@ def add_gems
   gem 'friendly_id', '~> 5.3'
   gem 'kaminari', '~> 1.2', '>= 1.2.1'
   gem 'name_of_person', '~> 1.1'
-  gem 'paper_trail', '~> 10.3', '>= 10.3.1'
   gem 'sidekiq', '~> 6.0', '>= 6.0.3'
   gem 'slim-rails', '~> 3.2'
 
@@ -122,7 +121,7 @@ end
 
 def add_javascript
   # Install javascript libraries
-  run 'yarn add local-time bulma'
+  run 'yarn add local-time bootstrap@4.5.3 jquery popper.js'
 
   if rails_5?
     run 'yarn add turbolinks @rails/actioncable@pre @rails/actiontext@pre @rails/activestorage@pre @rails/ujs@pre'
@@ -134,6 +133,9 @@ def add_javascript
     const alias = require("./alias")
 
     environment.plugins.append('Provide', new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      Popper: ['popper.js', 'default'],
       Rails: '@rails/ujs'
     }))
 

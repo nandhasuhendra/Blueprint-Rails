@@ -28,7 +28,7 @@ Inspired heavily by [Jumpstart](https://github.com/excid3/jumpstart) from [Chris
   - [rubocop-rails](https://github.com/rubocop-hq/rubocop-rails)
 
 ### Bulma CSS by default
-With Rails 6 we have webpacker by default now. Bulma installed using yarn package.
+With Rails 6 we have webpacker by default now. Bootstrap 4.5.3 installed using yarn package.
 
 ## How it works
 ##### Create a new rails app

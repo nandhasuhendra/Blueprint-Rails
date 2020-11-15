@@ -7,8 +7,9 @@ html
   body
     = render 'shared/navbar'
 
-    div class="container"
+    main role="mail"
       = yield
 
+    = yield(:javascript)
     = render 'shared/footer'
 
